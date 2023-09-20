@@ -160,6 +160,7 @@ body {
 
 .product {
     width: 300px;
+    height: 400px;
     margin: 10px;
     padding: 20px;
     background-color: #fff;
@@ -176,7 +177,7 @@ body {
 
 .product-logo {
     width: 100%;
-    height: 80%;
+    height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,8 +191,54 @@ body {
 .product h3 {
     font-size: 20px;
     margin: 20px 0px;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 1px;
 }
 
+.product span {
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 40px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #ca0000;
+}
+
+.product button {
+  padding: 10px 20px;
+  margin-left: 40px;
+  background-color: #ca0000;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+.product button:hover {
+  background-color: #a30202;
+}
+
+.view-all {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-all button {
+  padding: 15px 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.view-all button:hover {
+  color: whites;
+  background-color: #ca0000;
+}
 
 .footer {
     display: flex;
